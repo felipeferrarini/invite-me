@@ -7,7 +7,7 @@ export default class MyDocument extends NextDocument {
         <Head>
           <meta
             name="title"
-            content="Fernanda e Leandro | Convite de Casamento"
+            content="Fernanda e Leandro | Convite para Festa"
           />
           <meta charSet="utf-8" />
 
