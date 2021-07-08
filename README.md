@@ -22,10 +22,13 @@ porém como banco de dados utiliza Postgress o que torna muito mais facil o gere
 ```
 
 - Crie uma tabela com o nome `guests` no seu projeto do Supabase com a seguinte estrutura:
+
+```
   **Name**     | **Data Type** | **Format**
   id       | bigint    | int8
   check    | boolean   | bool
   familyId | bigint    | int8
   name     | text      | text
+```
 
 - Rode a aplicação local `yarn dev`
