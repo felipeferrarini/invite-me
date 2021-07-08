@@ -29,4 +29,12 @@ export const supabaseServices = {
 
     return true;
   },
+
+  getAllGuests: async (): Promise<IGuest[]> => {
+    const { data, error } = await supabaseClient.from("guests").select("*");
+
+    if (error) throw new Error(error.message);
+
+    return data;
+  },
 };
